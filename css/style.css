@@ -97,3 +97,58 @@ body{
     -webkit-font-smoothing: antialiased ;
     -moz-osx-font-smoothing: grayscale;
 }
+
+/* ------header------ */
+.header{}
+.nav{}
+.nav__title{}
+.nav__links{}
+.nav__link{}
+.nav__cta{}
+
+/* ------main------ */
+.main{}
+.main__section{}
+.main__background{}
+.main__items{}
+.main__picture{}
+.main__img{}
+
+.main__texts{}
+.main__title{}
+.main__subtitle{}
+.fa-solid{}
+.main__paragraph{}
+.main__text{}
+
+
+.main__aside{}
+.aside__container{}
+.aside__connection{}
+.aside__number{}
+.aside__paragraph{}
+.aside__persons{}
+.aside__person{}
+.aside__img{}
+.aside__check{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+img{
+    width: 50px;
+}

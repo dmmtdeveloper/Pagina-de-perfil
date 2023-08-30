@@ -1,18 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/b49fb6c5f6.js" crossorigin="anonymous"></script>
   <title>Página de perfil</title>
 </head>
+
 <body>
   <header class="header">
-    
+    <nav class="nav">
+      <h1 class="nav__title">Profile</h1>
+
+      <ul class="nav__links">
+        <li class="nav__link">Home</li>
+        <li class="nav__link">My Profile</li>
+        <li class="nav__link">Find Connections</li>
+      </ul>
+
+      <button class="nav__cta">Sing Out</button>
+    </nav>
   </header>
+
+  <main class="main">
+    <section class="main__section">
+      <div class="main__background"></div>
+      <div class="main__items">
+        <figure class="main__picture">
+          <img src="assets/David.png" alt="" class="main__img">
+        </figure>
+
+        <div class="main__texts">
+          <h1 class="main__title">David Martínez</h1>
+          <h2 class="main__subtitle"><i class="fa-solid fa-location-dot"></i>Chile</h2>
+          <p class="main__paragraph">Frontend Developer | Full Stack | <br> HTML | CSS | JS</p>
+          <p class="main__text">edit Profile</p>
+        </div>
+      </div>
+    </section>
+
+    <aside class="main__aside">
+      <section class="aside__container">
+        <div class="aside__connection">
+          <p class="aside__number">2</p>
+          <p class="aside__paragraph">connection Requests</p>
+        </div>
+  
+          <div class="aside__persons">
+            <div class="aside__person">
+              <p class="aside__paragraph"><img class="aside__img" src="assets/David.png" alt="">Todd E</p>
+              <div class="aside__check">
+                <i class="fa-solid fa-check"></i>
+                <i class="fa-solid fa-xmark"></i>
+              </div>
+            </div>
+  
+            <div class="aside__person">
+              <p class="aside__paragraph"><img class="aside__img" src="assets/David.png" alt="">claudia K</p>
+              <div class="aside__check">
+                <i class="fa-solid fa-check"></i>
+                <i class="fa-solid fa-xmark"></i>
+              </div>
+            </div>
+          </div>
+      </section>
+    </aside>
+
+    <aside class="main__aside">
+      <section class="aside__container">
+        <div class="aside__connection">
+          <p class="aside__number">500+</p>
+          <p class="aside__paragraph">Your Connections</p>
+        </div>
+  
+          <div class="aside__persons">
+            <div class="aside__person">
+              <p class="aside__paragraph"><img class="aside__img" src="assets/David.png" alt="">Adrian D</p>
+            </div>
+  
+            <div class="aside__person">
+              <p class="aside__paragraph"><img class="aside__img" src="assets/David.png" alt="">Anne J</p>
+            </div>
+            
+            <div class="aside__person">
+              <p class="aside__paragraph"><img class="aside__img" src="assets/David.png" alt="">Adrian T</p>
+            </div>
+            
+            <div class="aside__person">
+              <p class="aside__paragraph"><img class="aside__img" src="assets/David.png" alt="">Harry Y</p>
+            </div>
+          </div>
+      </section>
+
+      <div class="aside__container">
+        <p class="aside__paragrap">View More</p>
+      </div>
+    </aside>
+  </main>
 </body>
+
 </html>
