@@ -14,119 +14,149 @@
 
 <body>
   <header class="header">
-    <nav class="nav">
+    <nav class="nav container">
       <h1 class="nav__title">Profile</h1>
-
+      
       <ul class="nav__links">
-       <li><a href="#" class="nav__link">Home</a></li>
-       <li><a href="#" class="nav__link">My profile</a></li>
-       <li><a href="#" class="nav__link">Find connection</a></li>
+        <li><a href="#" class="nav__link">Home</a></li>
+        <li><a href="#" class="nav__link">My profile</a></li>
+        <li><a href="#" class="nav__link">Find connection</a></li>
         <button class="nav__cta">Sing Out</button>
       </ul>
     </nav>
   </header>
 
-  <main class="main">
-    <section class="mainCard__section">
-      <div class="mainCard__background"></div>
-      <div class="mainCard__items">
-        <figure class="mainCard__picture">
-          <img src="assets/David.png" alt="" class="mainCard__img">
-        </figure>
-
-        <div class="mainCard__texts">
-          <h1 class="mainCard__title">David Martínez</h1>
-          
-          <div class="mainCard__location">
-            <i class="fa-solid fa-location-dot"></i>
-            <h2 class="mainCard__subtitle">Chile</h2>
-          </div>
-          <p class="main__paragraph">Frontend Developer | Full Stack | <br> HTML | CSS | JS</p>
-
-          <div class="mainCard__location">
-            <i class="fa-solid fa-gear"></i>
-            <p class="mainCard__text">Edit Profile</p>
-          </div>
-          
-        </div>
-      </div>
-    </section>
-
-    <section class="aside__containers">
-      <aside class="main__aside">
-        <section class="aside__container">
-          <div class="aside__connection">
-            <p class="aside__number">2</p>
-            <p class="aside__paragraph">connection Requests</p>
-          </div>
+    <main class="main container">
+        <section class="main__cards">
+          <article class="mainCard__section ">
+            <div class="mainCard__background"></div>
+            <div class="mainCard__items">
+              <figure class="mainCard__picture">
+                <img src="assets/David.png" alt="" class="mainCard__img">
+              </figure>
     
-            <div class="aside__persons">
-              <div class="aside__person">
-                <img class="aside__img" src="assets/David.png" alt="">
-                <p class="aside__paragraph">Todd E</p>
-              </div>
-                <div class="aside__check">
-                  <i class="fa-solid fa-check"></i>
-                  <i class="fa-solid fa-xmark"></i>
+              <div class="mainCard__texts">
+                <h1 class="mainCard__title">David Martínez</h1>
+                
+                <div class="mainCard__location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <h2 class="mainCard__subtitle">Chile</h2>
+                </div>
+                <p class="main__paragraph">Frontend Developer | Full Stack | <br> HTML | CSS | JS</p>
+    
+                <div class="mainCard__location">
+                  <i class="fa-solid fa-gear"></i>
+                  <p class="mainCard__text">Edit Profile</p>
                 </div>
               </div>
+            </div>
+          </article>
+    
+          <article class="mainCard__section ">
+            <div class="mainCard__background">
+              <h1 class="mainCard__title--eduction">Education</h1>
+            </div>
+
+            <div class="mainCard__items">    
+              <div class="mainCard__texts">
+                <h2 class="mainCard__subtitle--education">Coding Dojo Bootcamp | Full Stack MERN </h2>
+                <p class="mainCard__paragraph">Agosto 2023 - Nov2023</p>
+              </div>
+
+              <div class="mainCard__texts">
+                <h2 class="mainCard__subtitle--education">Udemy | CSS Avanzado</h2>
+                <p class="mainCard__paragraph">julio 2023</p>
+              </div> 
               
-              <div class="aside__persons">
-                <div class="aside__person">
-                  <img class="aside__img" src="assets/David.png" alt="">
-                  <p class="aside__paragraph">claudia K</p>
-                </div>
-                  <div class="aside__check">
-                    <i class="fa-solid fa-check"></i>
-                    <i class="fa-solid fa-xmark"></i>
+              <div class="mainCard__texts">
+                <h2 class="mainCard__subtitle--education">Academia Hola Mundo | HTML5</h2>
+                <p class="mainCard__paragraph">Enero 2023</p>
+              </div>   
+              </div>
+            </div>
+          </article>
+        </section>
+    
+        <section class="aside__main">
+          <aside class="main__aside">
+            <section class="aside__section">
+              <div class="aside__connection">
+                <p class="aside__number">2</p>
+                <p class="aside__text">Connection Requests</p>
+              </div>
+        
+                <div class="aside__persons">
+                  <div class="aside__person">
+                    <img class="aside__img" src="https://octodex.github.com/images/welcometocat.png" alt="">
+                    <p class="aside__paragraph">Todd E</p>
                   </div>
+                    <div class="aside__picture">
+                      <i class="fa-solid fa-check"></i>
+                      <i class="fa-solid fa-xmark"></i>
+                    </div>
+                  </div>
+                  
+                  <div class="aside__persons">
+                    <div class="aside__person">
+                      <img class="aside__img" src="https://octodex.github.com/images/NUX_Octodex.gif" alt="">
+                      <p class="aside__paragraph">claudia K</p>
+                    </div>
+                      <div class="aside__picture">
+                        <i class="fa-solid fa-check"></i>
+                        <i class="fa-solid fa-xmark"></i>
+                      </div>
+                  </div>
+            </section>
+          </aside>
+      
+          <aside class="main__aside">
+
+            <section class="aside__section">
+              <div class="aside__connection">
+                <p class="aside__number--connection">500+</p>
+                <p class="aside__text">Your Connections</p>
               </div>
-        </section>
-      </aside>
-  
-      <aside class="main__aside">
-        <section class="aside__container">
-          <div class="aside__connection">
-            <p class="aside__numbers">500+</p>
-            <p class="aside__text">Your Connections</p>
-          </div>
+        
+                <div class="aside__persons">
+                  <div class="aside__person">
+                    <img class="aside__img" src="https://octodex.github.com/images/daftpunktocat-thomas.gif" alt="">
+                    <p class="aside__paragraph">Adrian D</p>
+                  </div>
+                </div>
     
-            <div class="aside__persons">
-              <div class="aside__person">
-                <img class="aside__img" src="assets/David.png" alt="">
-                <p class="aside__paragraph">Adrian D</p>
-              </div>
-            </div>
-
-            <div class="aside__persons">
-              <div class="aside__person">
-                <img class="aside__img" src="assets/David.png" alt="">
-                <p class="aside__paragraph">Anne J</p>
-              </div>
-            </div>
+                <div class="aside__persons">
+                  <div class="aside__person">
+                    <img class="aside__img" src="https://octodex.github.com/images/hula_loop_octodex03.gif" alt="">
+                    <p class="aside__paragraph">Anne J</p>
+                  </div>
+                </div>
+                  
+                <div class="aside__persons">
+                  <div class="aside__person">
+                    <img class="aside__img" src="https://octodex.github.com/images/yogitocat.png" alt="">
+                    <p class="aside__paragraph">Adrian T</p>
+                  </div>
+                </div>
+                  
+                <div class="aside__persons">
+                  <div class="aside__person">
+                    <img class="aside__img" src="https://octodex.github.com/images/catstello.png" alt="">
+                    <p class="aside__paragraph">Harry Y</p>
+                  </div>
+                </div>
+              </section>
               
-            <div class="aside__person">
-              <div class="aside__person">
-                <img class="aside__img" src="assets/David.png" alt="">
-                <p class="aside__paragraph">Adrian T</p>
+              <div class="aside__container--text">
+                <p class="aside__paragraph">View More</p>
               </div>
-            </div>
-              
-            <div class="aside__person">
-              <div class="aside__person">
-                <img class="aside__img" src="assets/David.png" alt="">
-                <p class="aside__paragraph">Harry Y</p>
-              </div>
-            </div>
 
+          </aside>
         </section>
-  
-        <div class="aside__container">
-          <p class="aside__paragrap">View More</p>
-        </div>
-      </aside>
-    </section>
-  </main>
+    </main>
+
+    <footer>
+      <div></div>
+    </footer>
 </body>
 
 </html>
