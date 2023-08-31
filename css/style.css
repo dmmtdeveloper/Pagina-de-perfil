@@ -377,17 +377,23 @@ body{
 }
 
 .fa-check, .fa-xmark{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
     color: black;
     border-radius: 50%;
     outline: 2px solid black;
     height: 2rem;
     width: 2rem;
-    text-align: center;
     transition: 0.3s;
 }
+
+.fa-check::before{
+    line-height: 1.6;
+}
+
+.fa-xmark::before{
+    line-height: 1.6;
+}
+
 
 .fa-check:hover{
     background-color: #087EA4;
