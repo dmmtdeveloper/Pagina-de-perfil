@@ -36,7 +36,7 @@
               </figure>
     
               <div class="mainCard__texts">
-                <h1 class="mainCard__title">David Martínez</h1>
+                <h1 id="nombre" class="mainCard__title">David Martínez</h1>
                 
                 <div class="mainCard__location">
                   <i class="fa-solid fa-location-dot"></i>
@@ -46,7 +46,7 @@
     
                 <div class="mainCard__location">
                   <i class="fa-solid fa-gear"></i>
-                  <p class="mainCard__text">Edit Profile</p>
+                  <p onclick="editProfile()" class="mainCard__text">Edit Profile</p>
                 </div>
               </div>
             </div>
@@ -81,29 +81,29 @@
           <aside class="main__aside">
             <section class="aside__section">
               <div class="aside__connection">
-                <p class="aside__number">2</p>
+                <p id="numLikes" class="aside__number">2</p>
                 <p class="aside__text">Connection Requests</p>
               </div>
         
-                <div class="aside__persons">
-                  <div class="aside__person">
+                <div id="delete" class="aside__persons">
+                  <div  class="aside__person">
                     <img class="aside__img" src="https://octodex.github.com/images/welcometocat.png" alt="">
                     <p class="aside__paragraph">Todd E</p>
                   </div>
                     <div class="aside__picture">
-                      <i class="fa-solid fa-check"></i>
-                      <i class="fa-solid fa-xmark"></i>
+                      <i onclick="sumarProfile()" class="fa-solid fa-check"></i>
+                      <i onclick="deleteProfile()" class="fa-solid fa-xmark"></i>
                     </div>
                   </div>
                   
-                  <div class="aside__persons">
+                  <div id="delete" class="aside__persons">
                     <div class="aside__person">
                       <img class="aside__img" src="https://octodex.github.com/images/NUX_Octodex.gif" alt="">
                       <p class="aside__paragraph">claudia K</p>
                     </div>
                       <div class="aside__picture">
-                        <i class="fa-solid fa-check"></i>
-                        <i class="fa-solid fa-xmark"></i>
+                        <i onclick="sumarProfile()" class="fa-solid fa-check"></i>
+                        <i onclick="deleteProfile()" class="fa-solid fa-xmark"></i>
                       </div>
                   </div>
             </section>
@@ -113,7 +113,7 @@
 
             <section class="aside__section">
               <div class="aside__connection">
-                <p class="aside__number--connection">500+</p>
+                <p id="numProfile" class="aside__number--connection">418</p>
                 <p class="aside__text">Your Connections</p>
               </div>
         
@@ -157,6 +157,8 @@
   <footer>
       <div></div>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 
 </html>

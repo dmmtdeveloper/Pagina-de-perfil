@@ -384,6 +384,7 @@ body{
     height: 2rem;
     width: 2rem;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .fa-check::before{
@@ -396,9 +397,9 @@ body{
 
 
 .fa-check:hover{
-    background-color: #087EA4;
+    background-color: #5ad444;
     color: #fff;
-    outline: #087EA4;
+    outline: #5ad444;
 }
 
 .fa-xmark:hover{
